@@ -7,14 +7,14 @@ $base-font: "Open Sans", "Helvetica", "sans-serif";
 $header-font: "Raleway", "Helvetica", "sans-serif";
 
 // Local fonts (uncomment following lines)
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "Font Name";
+  src: font-url('FontFile.eot');
+  src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
+       font-url('FontFile.woff') format('woff'),
+       font-url('FontFile.ttf') format('truetype')
+}
+$my-font: "Font Name";
 
 // Font-size and line-height
 $base-size: 16px;
@@ -26,11 +26,11 @@ $base-height: 1.4;
 // Scheme
 $brand-color: #D23333;
 
-$red: #EE5F5B;
-$blue: #469AE0;
-$yellow: #FDB631;
-$orange: #E67E22;
-$green: #32B796;
+$red: #BD4F6C;
+$blue: #67AAF9;
+$yellow: #E6CCBE;
+$orange: #F18F01;
+$green: #21897E;
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222
